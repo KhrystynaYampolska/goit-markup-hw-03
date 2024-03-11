@@ -84,6 +84,7 @@ img {
 
 .header-container {
   display: flex;
+  padding: 24px 0;
 }
 
 .header-logo-studio {
