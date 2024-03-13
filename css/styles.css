@@ -84,6 +84,8 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo-studio {
@@ -119,7 +121,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 
 .header-contacts {
@@ -250,16 +251,12 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
 .team-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  justify-content: center;
   text-align: center;
 }
 
@@ -291,16 +288,12 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .portfolio-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .portfolio-border {
